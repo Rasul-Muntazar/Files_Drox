@@ -1,11 +1,11 @@
-if TextMsg == 'تفعيل صورتي' then
+if TextMsg == 'صورتي' then
 if not msg.Admin then
 return LuaTele.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,'⌁︙هذا الامر يخص ↫ '..Controller_Num(8)..' .\n').Warning,"md",true)  
 end
 Redis:del(Drox.."myphoto"..msg.chat_id)
 return LuaTele.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,"⌁︙تم تفعيل امر صورتي  \n ✓").muhammad,"md",true)
 end
-if TextMsg == 'تعطيل صورتي' then
+if TextMsg == 'صورتي' then
 if not msg.Admin then
 return LuaTele.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,'⌁︙هذا الامر يخص ↫ '..Controller_Num(8)..' .\n').Warning,"md",true)  
 end
