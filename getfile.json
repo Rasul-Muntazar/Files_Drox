@@ -1,0 +1,24 @@
+{
+"result": true,
+"plugins_": {
+"Rdodbot.lua":"ردود",
+}
+}
+{
+"result": true,
+"plugins_": {
+"all.lua":"all",
+}
+}
+{
+"result": true,
+"plugins_": {
+"Bank.lua":"بنك",
+}
+}
+{
+"result": true,
+"plugins_": {
+"simsim.lua":"سمسمي",
+}
+}
